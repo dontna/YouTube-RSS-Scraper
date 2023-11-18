@@ -20,7 +20,7 @@ For anyone who needs it, here's a quick example. In the following example we wil
 Find the channel's handle
 ![lemmino](https://github.com/dontna/YouTube-RSS-Scraper/assets/85905830/ab396afe-cd5e-4758-8410-348560b7a7b6)
 
-here we can see that it is **@lemmino** (the case doesn't matter)
+here we can see that it is **@LEMMiNO** (the case doesn't matter)
 
 Once you run the script you will be met with a prompt "Enter YouTube username:", enter the handle here.
 ![python-sccc](https://github.com/dontna/YouTube-RSS-Scraper/assets/85905830/1896997a-e905-47d2-895f-ae314cefa5ab)
