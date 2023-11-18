@@ -9,7 +9,7 @@ def GenerateChannelLink(creator_tag: str):
 def GetRSSLink(creator_link: str):
     with HTMLSession() as s:
         r = s.get(creator_link)
-        r.html.render()
+        r.html.render(sleep=2)
         
         try:
             RSS_link = r.html.xpath("/html/body/link[4]", first=True).attrs['href']
