@@ -33,4 +33,4 @@ In this example our RSS link is: https://www.youtube.com/feeds/videos.xml?channe
 That is your RSS link that you can put in any RSS Feed client, to see the latest uploads!
 
 # Issues
-Sometimes the script may throw an "error", but it still shows the RSS Link. I'll get round to fixing that soon!
+~~1. Sometimes the script may throw an "error", but it still shows the RSS Link. I'll get round to fixing that soon!~~ ***[Potentially Fixed]***
