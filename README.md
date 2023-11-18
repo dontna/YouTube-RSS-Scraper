@@ -18,7 +18,8 @@ The "handle" is the name that has an "**@**" in front of it, **NOT the channel n
 For anyone who needs it, here's a quick example. In the following example we will be using the YouTube channel [LEMMiNO](https://www.youtube.com/@LEMMiNO)
 
 Find the channel's handle
-![lemmino](https://github.com/dontna/YouTube-RSS-Scraper/assets/85905830/ab396afe-cd5e-4758-8410-348560b7a7b6)
+![lemmino-edit](https://github.com/dontna/YouTube-RSS-Scraper/assets/85905830/9d090578-d172-4441-ab75-9a8879079a41)
+
 
 here we can see that it is **@LEMMiNO** (the case doesn't matter)
 
