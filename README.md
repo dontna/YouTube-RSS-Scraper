@@ -17,17 +17,15 @@ The "handle" is the name that has an "**@**" in front of it, **NOT the channel n
 # Example
 For anyone who needs it, here's a quick example. In the following example we will be using the YouTube channel [LEMMiNO](https://www.youtube.com/@LEMMiNO)
 
-1. Find the channel's handle
+Find the channel's handle
 ![lemmino](https://github.com/dontna/YouTube-RSS-Scraper/assets/85905830/ab396afe-cd5e-4758-8410-348560b7a7b6)
 
 here we can see that it is **@lemmino** (the case doesn't matter)
 
-2. Run the Python script and enter that handle.
-
 Once you run the script you will be met with a prompt "Enter YouTube username:", enter the handle here.
 ![python-sccc](https://github.com/dontna/YouTube-RSS-Scraper/assets/85905830/1896997a-e905-47d2-895f-ae314cefa5ab)
 
-3. Press enter, and give it a couple of seconds. You'll see something like this once it is done:
+Press enter, and give it a couple of seconds. You'll see something like this once it is done:
 ![python-srrrr](https://github.com/dontna/YouTube-RSS-Scraper/assets/85905830/0eeee6ba-4d1f-4e9f-8cba-85b2bcd1836b)
 
 In this example our RSS link is: https://www.youtube.com/feeds/videos.xml?channel_id=UCRcgy6GzDeccI7dkbbBna3Q
