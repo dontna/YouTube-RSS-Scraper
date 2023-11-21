@@ -20,7 +20,7 @@ The "handle" is the name that has an "**@**" in front of it, **NOT the channel n
 3. It will return the link to that channel's RSS Feed, which you can input into any RSS Feed client. 
 
 # GUI
-Created a GUI for those who preffer this over the terminal. This is optional and can still use the terminal if preffered.
+Created a GUI for those who prefer this over the terminal. This is optional and can still use the terminal if preffered.
 
 Note: If using the GUI please install **pyqt5** with pip.
 
