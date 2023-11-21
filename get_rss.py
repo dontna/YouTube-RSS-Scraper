@@ -21,12 +21,27 @@ def GetRSSLink(creator_link: str):
     return RSS_link
 
 if __name__ == "__main__":
-    username = input("Enter YouTube username: ")
+    username = input("Enter YouTube username or channel link: ")
 
-    print("Generating Channel Link...")
-    channel_link = GenerateChannelLink(username)
+    if username.__contains__("watch?v="):
+        print("Error: Link looks like a video link, please enter a channel link.")
+        quit()
+
+    if username.__contains__("https://") and not username.__contains__("www.youtube.com"):
+        print("Error: Link does not look like valid YouTube link, please try again.")
+        quit()
+
+    if username.__contains__("https://www.youtube.com/"):
+        channel_link = username
+    else:
+        print("Generating Channel Link...")
+        channel_link = GenerateChannelLink(username)
 
     print(f"Getting RSS Link for \"{username}\", this may take a moment...")
     RSS_link = GetRSSLink(channel_link)
+
+    if RSS_link == 1:
+        print("Error: Could not load YouTube Channel page, is the username/link valid?")
+        quit()
 
     print(username, "RSS Link:", RSS_link)

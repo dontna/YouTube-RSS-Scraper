@@ -64,7 +64,7 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Dontna's YouTube RSS Scraper GUI"))
-        self.YouTubeUsernameLineEdit.setPlaceholderText(_translate("Form", "Enter YouTube username here..."))
+        self.YouTubeUsernameLineEdit.setPlaceholderText(_translate("Form", "Enter YouTube username or channel link here..."))
         self.GetRSSLinkButton.setText(_translate("Form", "Get RSS Link"))
         self.textEdit.setPlaceholderText(_translate("Form", "RSS Links will show here..."))
         self.ProgressText.setText(_translate("Form", "Nothing to do."))
@@ -94,8 +94,20 @@ class Ui_Form(object):
         
         username_string = str(self.YouTubeUsernameLineEdit.text()).strip()
 
-        self.updateProgressText("Generating channel link, please wait...")
-        channel_link = get_rss.GenerateChannelLink(username_string)
+        if username_string.__contains__("https://") and not username_string.__contains__("www.youtube.com"):
+            self.showPopupError("Error","Error: Link does not look like valid YouTube link, please try again.")
+            return
+
+        if username_string.__contains__("watch?v="):
+            self.showPopupError("Error", "Error: Link looks like a video link, please enter a channel link.")
+            return
+
+        if username_string.__contains__("https://www.youtube.com/"):
+            channel_link = username_string
+            username_string = username_string.replace('https://www.youtube.com/','')
+        else:
+            self.updateProgressText("Generating channel link, please wait...")
+            channel_link = get_rss.GenerateChannelLink(username_string)
 
         self.updateProgressText("Getting RSS Link...")
         RSS_link = get_rss.GetRSSLink(channel_link)
