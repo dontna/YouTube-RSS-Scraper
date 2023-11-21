@@ -13,9 +13,9 @@ OPTIONAL: If using the GUI please install **pyqt5** with pip.
 Once that is done, you can use the script!
 
 1. Get the channel's handle.
-The "handle" is the name that has an "**@**" in front of it, **NOT the channel name**. You can find this by going to the main page of the YouTube channel, and looking under the channel name.
+The "handle" is the name that has an "**@**" in front of it, **NOT the channel name**. You can find this by going to the main page of the YouTube channel, and looking under the channel name. You can also paste in the channel URL.
 
-2. Run the Python script and enter that handle.
+2. Run the Python script and enter that handle / channel URL.
 
 3. It will return the link to that channel's RSS Feed, which you can input into any RSS Feed client. 
 
@@ -36,7 +36,7 @@ Find the channel's handle
 
 here we can see that it is **@LEMMiNO** (the case doesn't matter)
 
-Once you run the script you will be met with a prompt "Enter YouTube username:", enter the handle here.
+Once you run the script you will be met with a prompt "Enter YouTube username or channel link:", enter the handle here.
 ![python-sccc](https://github.com/dontna/YouTube-RSS-Scraper/assets/85905830/1896997a-e905-47d2-895f-ae314cefa5ab)
 
 Press enter, and give it a couple of seconds. You'll see something like this once it is done:
