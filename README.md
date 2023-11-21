@@ -5,6 +5,11 @@ A small Python script which allows you to get the RSS link to any YouTube channe
 Before using the script please install **requests_html** with pip.
 `pip install requets_html`
 
+OPTIONAL: If using the GUI please install **pyqt5** with pip.
+`pip install pyqt5`
+
+The GUI was created with pyqt5 version 5.15.2
+
 Once that is done, you can use the script!
 
 1. Get the channel's handle.
@@ -12,10 +17,14 @@ The "handle" is the name that has an "**@**" in front of it, **NOT the channel n
 
 2. Run the Python script and enter that handle.
 
-3. It will return the link to that channel's RSS Feed, which you can input into any RSS Feed client.
+3. It will return the link to that channel's RSS Feed, which you can input into any RSS Feed client. 
 
-# Example
-For anyone who needs it, here's a quick example. In the following example we will be using the YouTube channel [LEMMiNO](https://www.youtube.com/@LEMMiNO)
+# GUI Example
+For anyone who needs it, here's a quick example using the GUI. In the following example we will be using the YouTube channel [LEMMiNO](https://www.youtube.com/@LEMMiNO)
+
+
+# Terminal Example
+For anyone who needs it, here's a quick example using the terminal. In the following example we will be using the YouTube channel [LEMMiNO](https://www.youtube.com/@LEMMiNO)
 
 Find the channel's handle
 ![lemmino-edit](https://github.com/dontna/YouTube-RSS-Scraper/assets/85905830/9d090578-d172-4441-ab75-9a8879079a41)
@@ -34,4 +43,4 @@ In this example our RSS link is: https://www.youtube.com/feeds/videos.xml?channe
 That is your RSS link that you can put in any RSS Feed client, to see the latest uploads!
 
 # Issues
-~~1. Sometimes the script may throw an "error", but it still shows the RSS Link. I'll get round to fixing that soon!~~ ***[Potentially Fixed]***
+~~1. Sometimes the script may throw an "error", but it still shows the RSS Link. I'll get round to fixing that soon!~~ ***[Confirmed Fix]***
