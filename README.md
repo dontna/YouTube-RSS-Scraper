@@ -8,7 +8,7 @@ Before using the script please install **requests_html** with pip.
 OPTIONAL: If using the GUI please install **pyqt5** with pip.
 `pip install pyqt5`
 
-The GUI was created with pyqt5 version 5.15.2
+***The GUI was created with pyqt5 version 5.15.2***
 
 Once that is done, you can use the script!
 
@@ -19,8 +19,12 @@ The "handle" is the name that has an "**@**" in front of it, **NOT the channel n
 
 3. It will return the link to that channel's RSS Feed, which you can input into any RSS Feed client. 
 
-# GUI Example
-For anyone who needs it, here's a quick example using the GUI. In the following example we will be using the YouTube channel [LEMMiNO](https://www.youtube.com/@LEMMiNO)
+# GUI
+Created a GUI for those who preffer this over the terminal. This is optional and can still use the terminal if preffered.
+
+Note: If using the GUI please install **pyqt5** with pip.
+
+![rss-getter-gui](https://github.com/dontna/YouTube-RSS-Scraper/assets/85905830/29f37d3f-c4ff-4111-8550-05de57c311dc)
 
 
 # Terminal Example
@@ -43,4 +47,7 @@ In this example our RSS link is: https://www.youtube.com/feeds/videos.xml?channe
 That is your RSS link that you can put in any RSS Feed client, to see the latest uploads!
 
 # Issues
+If you come across any issues, bugs or problems while using this script please let me know so I can fix it.
+
+# Fixed Issues
 ~~1. Sometimes the script may throw an "error", but it still shows the RSS Link. I'll get round to fixing that soon!~~ ***[Confirmed Fix]***
