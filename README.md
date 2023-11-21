@@ -37,7 +37,6 @@ Find the channel's handle
 here we can see that it is **@LEMMiNO** (the case doesn't matter)
 
 Once you run the script you will be met with a prompt "Enter YouTube username or channel link:", enter the handle here.
-![python-sccc](https://github.com/dontna/YouTube-RSS-Scraper/assets/85905830/1896997a-e905-47d2-895f-ae314cefa5ab)
 
 Press enter, and give it a couple of seconds. You'll see something like this once it is done:
 ![python-srrrr](https://github.com/dontna/YouTube-RSS-Scraper/assets/85905830/0eeee6ba-4d1f-4e9f-8cba-85b2bcd1836b)
